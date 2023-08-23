@@ -15,13 +15,42 @@ h6,
 p {
   margin: 0;
 }
-img{
+img {
   display: block;
 }
 .content {
   font-family: Roboto, sans-serif;
   color: #434455;
   background-color: #ffffff;
+}
+.container {
+  max-width: 1440px;
+  padding-left: ;
+  padding-right: ;
+  margin-left: ;
+  margin-right: ;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.page-header {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.navigation {
+  display: flex;
+}
+.link-list {
+  display: flex;
+  margin: 24px 332px 24px 0px;
+}
+.contacts-list {
+  display: flex;
 }
 .web {
   color: #2e2f42;
@@ -31,6 +60,7 @@ img{
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .main-link {
   color: var(--iris, #4d5ae5);
@@ -40,6 +70,7 @@ img{
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 24px 0 24px 156px;
 }
 .nav-link {
   color: #2e2f42;
@@ -47,6 +78,7 @@ img{
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-right: 40px;
 }
 .nav-link:hover,
 .nav-link:active,
@@ -60,6 +92,10 @@ img{
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-right: 40px;
+}
+.contacts:first-child {
+  padding-right: 40px;
 }
 .contacts:hover,
 .contacts:active,
@@ -67,7 +103,10 @@ img{
   color: #404bbf;
 }
 .hero {
+  display: flex;
+  flex-direction: column;
   background-color: #2e2f42;
+  height: 600px;
 }
 .main-title {
   color: var(--white, #fff);
@@ -75,6 +114,9 @@ img{
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 496px;
+  height: 120px;
+  padding: 188px 472px 292px 472px;
 }
 .order-button {
   background: var(--iris, #4d5ae5);
@@ -85,6 +127,9 @@ img{
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  width: 169px;
+  height: 56px;
+  padding: 356px 636px 188px 636px;
 }
 .order-button:hover,
 .order-button:focus {
