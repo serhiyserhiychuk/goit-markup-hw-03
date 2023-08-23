@@ -24,7 +24,7 @@ img {
   background-color: #ffffff;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   padding-left: ;
   padding-right: ;
   margin-left: ;
@@ -35,15 +35,24 @@ img {
   padding-bottom: 120px;
 }
 .page-header {
-  display: flex;
+  
   width: 1440px;
   height: 72px;
+  border-bottom: 1px solid #e7e9fc;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
 }
+.header-container{
+  display: flex;
+  width: 1158px;
+  margin: 0;
+  padding-left: 15px; 
+  padding-right: 15px;
+}
 .navigation {
   display: flex;
+  align-items: center;
 }
 .link-list {
   display: flex;
@@ -51,6 +60,7 @@ img {
 }
 .contacts-list {
   display: flex;
+  gap: 40px;
 }
 .web {
   color: #2e2f42;
@@ -78,6 +88,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;  
+  padding-bottom: 24px;
   padding-right: 40px;
 }
 .nav-link:hover,
@@ -94,9 +106,6 @@ img {
   letter-spacing: 0.02em;
   padding-right: 40px;
 }
-.contacts:first-child {
-  padding-right: 40px;
-}
 .contacts:hover,
 .contacts:active,
 .contacts:focus {
@@ -107,6 +116,8 @@ img {
   flex-direction: column;
   background-color: #2e2f42;
   height: 600px;
+  padding-top: 188px; 
+  padding-bottom: 188px;
 }
 .main-title {
   color: var(--white, #fff);
@@ -114,12 +125,13 @@ img {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   height: 120px;
   padding: 188px 472px 292px 472px;
 }
 .order-button {
-  background: var(--iris, #4d5ae5);
+  display: block;
+  background-color: var(--iris, #4d5ae5);
   color: var(--white, #fff);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -127,8 +139,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
+  border: none;
+  border-radius: 4px;
   padding: 356px 636px 188px 636px;
 }
 .order-button:hover,
