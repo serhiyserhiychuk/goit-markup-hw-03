@@ -25,10 +25,10 @@ img {
 }
 .container {
   max-width: 1158px;
-  padding-left: ;
-  padding-right: ;
-  margin-left: ;
-  margin-right: ;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .section {
   padding-top: 120px;
@@ -56,11 +56,14 @@ img {
 .link-list {
   display: flex;
   gap: 40px;
-  margin: 24px 332px 24px 0px;
+  margin: 24px 332px 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contacts-list {
   display: flex;
   gap: 40px;
+  margin: 24px 0;
 }
 .web {
   color: #2e2f42;
@@ -79,7 +82,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 24px 76px 24px 156px;
+  margin: 24px 76px 24px 0;
 }
 .nav-link {
   color: #2e2f42;
@@ -125,7 +128,9 @@ img {
   letter-spacing: 0.02em;
   max-width: 496px;
   height: 120px;
-  padding: 188px 472px 292px 472px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .order-button {
   display: block;
@@ -141,7 +146,8 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
-  padding: 356px 636px 188px 636px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .order-button:hover,
 .order-button:focus {
@@ -243,6 +249,13 @@ img {
 .footer-link{
   display: inline-block;
   margin-bottom: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-left: 156px;
 }
 .web-link {
   color: #f4f4fd;
@@ -253,4 +266,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-left: 156px;
 }
